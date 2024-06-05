@@ -1,0 +1,49 @@
+:root {
+  --Color-Rosa: #ff3267;
+  --Contenedor-Padre-background-color: #000000;
+  --content-background-color: #eee;
+  --borde-Blanco: #eee 2px dotted;
+  --Relleno-Contenedores: 30px;
+  --Relleno-Padre: 40px;
+  --fuente-de-letra: monospace;
+  --borde-Negro: #000000 1px dotted;
+  --Color-Para-h2: #c00;
+  --Color-Para-P: #333;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fuente-de-letra);
+  background-color: var(--Color-Rosa);
+}
+
+.Contenedor-Padre {
+  background-color: var(--Contenedor-Padre-background-color);
+  margin: 50px auto;
+  padding: var(--Relleno-Padre);
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: var(--borde-Blanco);
+}
+
+.Contenedor1 {
+  background-color: var(--content-background-color);
+  padding: var(--Relleno-Contenedores);
+  overflow-y: scroll;
+  max-height: 300px;
+}
+.Contenedor2 {
+  background-color: var(--content-background-color);
+  padding: var(--Relleno-Contenedores);
+}
+
+h2 {
+  color: var(--Color-Para-h2);
+  border-bottom: var(--borde-Negro);
+}
+
+p {
+  color: var(--Color-Para-P);
+}

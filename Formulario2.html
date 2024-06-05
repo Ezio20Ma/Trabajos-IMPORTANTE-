@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segundo Formulario</title>
+    <link rel="stylesheet" href="Formulario2.css" />
+  </head>
+  <body>
+    <div class="Formulario2">
+      <h1><span>Cont</span>acto</h1>
+      <form>
+        <div class="Grupo">
+          <label for="usuario"><span>Usuario:</span></label>
+          <input
+            id="usuario"
+            type="text"
+            placeholder="Escriba el Usuario"
+            required
+          />
+        </div>
+        <div class="Grupo">
+          <label for="direccion"><span>Dirección:</span></label>
+          <input
+            id="direccion"
+            type="text"
+            placeholder="Escriba su Dirección"
+            required
+          />
+        </div>
+        <div class="Grupo">
+          <label for="correo"><span>Correo electrónico:</span></label>
+          <input
+            id="correo"
+            type="email"
+            placeholder="Escriba su Correo Electrónico"
+            required
+          />
+        </div>
+        <div class="Grupo">
+          <label for="mensaje"><span>Mensaje:</span></label>
+          <textarea
+            id="mensaje"
+            placeholder="Aquí Escriba su Mensaje"
+            required
+          ></textarea>
+        </div>
+        <input class="btn" type="submit" value="Enviar Consulta" />
+      </form>
+    </div>
+  </body>
+</html>

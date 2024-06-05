@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nuevo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.redes {
+  display: flex;
+  align-items: center;
+}
+.Whasap {
+  display: flex;
+  align-items: center;
+}
+.nue,
+.insta {
+  width: 50px;
+  height: auto;
+  margin-left: 10px; /* Espacio entre las imágenes */
+}
+.nue,
+.twiter {
+  width: 50px;
+  height: auto;
+  margin-left: 10px; /* Espacio entre las imágenes */
+}
+
+.logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 100vh;
+  background-image: url(Fondo.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #c0c0c2;
+}
+.contenedor h1 {
+  font-size: 45px;
+}
+
+.descripcion {
+  margin-left: 2rem;
+  max-width: 56%;
+  margin-top: 4rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  color: white;
+  word-break: break-all;
+}
+.imagen {
+  width: 60px;
+  margin-left: 30px;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
+  color: black;
+  display: block;
+  padding: 20px 80px;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  background-color: #42aab8;
+}
+
+.item-r {
+  float: center;
+}
+
+.texto {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pie {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgb(0, 22, 255);
+  background: rgb(20, 31, 46);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 31, 46, 1) 50%,
+    rgba(128, 128, 128, 1) 100%
+  );
+  color: white;
+}
+h1 {
+  border-radius: 200%;
+  animation-name: mov;
+  animation-duration: 3s;
+  animation: mov 5s ease-out forwards;
+}
+@keyframes mov {
+  from {
+    margin-left: 200px;
+    width: 800px;
+  }
+  to {
+    margin-left: 0px;
+    width: 800px;
+  }
+  100% {
+    color: black;
+  }
+}
+.p .descripcion {
+  animation-name: movaparece;
+  animation-duration: 10s;
+  animation: movaparece 5s ease-out forwards;
+}
+@keyframes movaparece {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* Mover hacia arriba */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Posición original */
+  }
+}
+.Cerca {
+  max-width: 40%;
+}

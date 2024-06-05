@@ -1,0 +1,30 @@
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+table tr td:first-of-type {
+  width: 125px;
+}
+table tr td:nth-of-type(2) {
+  width: 200px;
+}
+div {
+  margin: 0 auto;
+}
+.Contenedor {
+  width: fit-content;
+  margin: 0 auto;
+}
+.Botones {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#edad,
+#Pais {
+  width: 30%;
+}
+#email {
+  max-width: 94%;
+}

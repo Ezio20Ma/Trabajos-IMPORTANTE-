@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: rgb(44, 62, 80);
+  background: radial-gradient(
+    circle,
+    rgba(44, 62, 80, 1) 1%,
+    rgba(44, 77, 80, 1) 30%,
+    rgba(44, 62, 80, 1) 59%
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+@keyframes Isquierda {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.Formulario2 {
+  width: 320px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  animation: Isquierda 1s ease-out forwards;
+}
+
+.Formulario2 form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+.btn {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  border: 1px solid #ccc;
+  background-color: black;
+  color: white;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+span {
+  color: #00bfff;
+}
+
+.btn {
+  background: #00bfff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #009fdd;
+}
