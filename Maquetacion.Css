@@ -1,0 +1,99 @@
+header {
+  width: 950px;
+  height: 170px;
+  margin: 0 auto;
+  display: flex;
+}
+header h1 {
+  color: orange;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+nav {
+  background-color: #629f21;
+  width: 950px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  width: 950px;
+  height: 500px;
+  margin: 0 auto;
+}
+section {
+  width: 550px;
+  height: 460px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+section h2 {
+  color: orange;
+}
+section h3 {
+  color: #cfcfcf;
+}
+aside {
+  background-color: #a4b88b;
+  width: 340px;
+  height: 460px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+aside h2 {
+  border-bottom: 2px solid orange;
+  color: orange;
+  margin: 10px;
+}
+aside p {
+  text-align: start;
+  padding: 3px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #525252;
+  width: 950px;
+  height: 50px;
+  margin: 0 auto;
+}
+footer p {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.Imagen {
+  width: 170px;
+}
+hr {
+  width: 95%;
+  height: 0;
+  border: medium none;
+  border-top: 1px dashed rgb(0, 0, 0);
+}
