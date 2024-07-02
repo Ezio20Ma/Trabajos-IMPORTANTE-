@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  background-color: #4c9500;
+}
+
+header {
+  width: 70%;
+  height: 150px;
+  background-color: #70be2d;
+  margin: 20px auto;
+}
+
+nav {
+  width: 70%;
+  height: 80px;
+  background-color: #70be2d;
+  margin: 20px auto;
+}
+
+article {
+  margin: 20px auto;
+  width: 70%;
+  min-height: 500px;
+  background-color: #70be2d;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  background-color: aliceblue;
+  margin: 20px;
+  width: 45%;
+  height: 140px;
+  display: block;
+}
+
+footer {
+  width: 70%;
+  height: 100px;
+  background-color: #70be2d;
+  margin: 20px auto;
+}

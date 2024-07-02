@@ -1,0 +1,161 @@
+.nuevo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.nue,
+.insta,
+.twiter {
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.Contenedor2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+}
+
+.Whasap {
+  display: flex;
+  align-items: center;
+}
+
+.Whasap img {
+  margin-right: 10px;
+}
+
+.Facebook {
+  display: flex;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-group h5 {
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 100vh;
+  background-image: url(fondo.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #c5c6c8;
+}
+
+.descripcion {
+  margin-left: 2rem;
+  max-width: 50%;
+  margin-top: 4rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  color: white;
+}
+
+.pie {
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    90deg,
+    rgba(20, 31, 46, 1) 50%,
+    rgba(128, 128, 128, 1) 100%
+  );
+  color: white;
+}
+
+.Cerca {
+  max-width: 40%;
+}
+
+#TituloCard h1 {
+  text-align: center;
+}
+
+@keyframes mov {
+  from {
+    margin-left: 200px;
+    width: 800px;
+  }
+  to {
+    margin-left: 0px;
+    width: 800px;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.descripcion p {
+  animation: movaparece 5s ease-out forwards;
+}
+
+.descripcion h1 {
+  border-radius: 200%;
+  animation: mov 5s ease-out forwards;
+}
+
+@keyframes movaparece {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.brands {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.brands h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.brands p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.brand-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.brand-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.brand-row img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.Contenedor2 {
+  padding: 10px;
+}

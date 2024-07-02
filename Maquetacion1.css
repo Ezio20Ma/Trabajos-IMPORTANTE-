@@ -1,0 +1,48 @@
+header {
+  width: 90%;
+  height: 150px;
+  background-color: blue;
+  margin: 0 auto;
+}
+nav {
+  width: 90%;
+  height: 80px;
+  background-color: rgb(0, 255, 187);
+  margin: 0 auto;
+}
+main {
+  width: 90%;
+  min-height: 500px;
+  background-color: rgb(255, 0, 132);
+  margin: 0 auto;
+}
+section {
+  width: 70%;
+  min-height: 500px;
+  background-color: rgb(0, 191, 255);
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+aside {
+  width: 30%;
+  min-height: 500px;
+  background-color: rgba(25, 53, 62, 0.891);
+  float: right;
+}
+footer {
+  width: 90%;
+  height: 100px;
+  background-color: rgb(0, 255, 13);
+  margin: 0 auto;
+}
+article {
+  width: 90%;
+  height: 200px;
+  background-color: rgb(198, 201, 22);
+  border-radius: 10px;
+  border: 1px solid red;
+  margin: 20px;
+}
