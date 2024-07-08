@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matrícula de Estudiantes - IESTP Chocope</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="FormularioMatriculaEstudiante.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>Matrícula de Estudiantes - IESTP Chocope</h2>
+        <div class="form-container">
+          <form novalidate>
+            <fieldset class="flex-container">
+              <legend>Información Personal</legend>
+              <div class="flex-item">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required />
+              </div>
+              <div class="flex-item">
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni" maxlength="8" required />
+              </div>
+              <div class="flex-item">
+                <label>Género:</label>
+                <div class="radio-container">
+                  <input
+                    type="radio"
+                    id="hombre"
+                    name="genero"
+                    value="hombre"
+                    required
+                  />
+                  <label for="hombre">Hombre</label>
+                  <input
+                    type="radio"
+                    id="mujer"
+                    name="genero"
+                    value="mujer"
+                    required
+                  />
+                  <label for="mujer">Mujer</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="flex-container">
+              <legend>Información de Contacto</legend>
+              <div class="flex-item">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required />
+              </div>
+              <div class="flex-item">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required />
+              </div>
+            </fieldset>
+
+            <fieldset class="flex-container">
+              <legend>Programa de Estudio</legend>
+              <div class="flex-item">
+                <label for="programa">Programa de Estudio:</label>
+                <select id="programa" name="programa" required>
+                  <option value="computacion">Computación e Informática</option>
+                  <option value="enfermeria">Enfermería Técnica</option>
+                  <option value="contabilidad">Contabilidad</option>
+                  <option value="mecanica">
+                    Mecánica de Producción Industrial
+                  </option>
+                  <option value="farmacia">Farmacia Técnica</option>
+                </select>
+              </div>
+            </fieldset>
+
+            <button type="submit">Registrar Matrícula</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

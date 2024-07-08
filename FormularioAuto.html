@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Autos</title>
+    <link rel="stylesheet" href="FormularioAuto.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Registro de Autos</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-column">
+            <label for="nombre_propietario">Nombre del Propietario:</label>
+            <input
+              type="text"
+              id="nombre_propietario"
+              name="nombre_propietario"
+              required
+            />
+
+            <label for="direccion_propietario"
+              >Dirección del Propietario:</label
+            >
+            <input
+              type="text"
+              id="direccion_propietario"
+              name="direccion_propietario"
+              required
+            />
+
+            <label for="fecha_registro">Fecha de Registro:</label>
+            <input
+              type="date"
+              id="fecha_registro"
+              name="fecha_registro"
+              required
+            />
+
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" name="marca" required />
+          </div>
+          <div class="form-column">
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" name="modelo" required />
+
+            <label for="ano">Año:</label>
+            <input
+              type="number"
+              id="ano"
+              name="ano"
+              min="2000"
+              max="2024"
+              required
+            />
+
+            <label for="color">Color:</label>
+            <input
+              type="color"
+              id="color"
+              name="color"
+              value="#000000"
+              required
+            />
+
+            <label for="placa">Número de Placa:</label>
+            <input type="text" id="placa" name="placa" required />
+          </div>
+        </div>
+        <button type="submit">Registrar Auto</button>
+      </form>
+    </div>
+  </body>
+</html>
